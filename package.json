@@ -1,0 +1,23 @@
+{
+  "name": "gitlab-merge-request",
+  "version": "1.0.0",
+  "description": "API de Utilidades para Merge Request no GitLab",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "glmr": "./bin/demo-global.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Davi",
+  "license": "MIT",
+  "dependencies": {
+    "git-utils": "^5.6.1",
+    "opn": "^6.0.0",
+    "stdio": "^0.2.7"
+  }
+}
