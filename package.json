@@ -1,7 +1,7 @@
 {
-  "name": "gitlab-merge-request",
+  "name": "glmr",
   "version": "1.0.0",
-  "description": "API de Utilidades para Merge Request no GitLab",
+  "description": "Merge Request Utility API on GitLab",
   "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
@@ -12,6 +12,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/sdteotonio/gitlab-merge-request.git"
   },
   "author": "Sergio Davi",
   "license": "MIT",
