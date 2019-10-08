@@ -6,8 +6,7 @@
   
 Requests require a *token* for authentication, so it is important to purchase [one here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token).  
   
-
-> export GLMR_TOKEN=*<GITLAB_ACCESS_TOKEN>*
+>git config --add gitlab.token *"<GITLAB-ACCESS-TOKEN>"*
 
 By default the **current branch** will be set as the base branch for the merge request.
 
