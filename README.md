@@ -4,9 +4,9 @@
 
     
 
- - `npm install -g glmr`
- - `glmr -v`
-  - `glmr --help`
+ - > npm install -g glmr
+ - > glmr -v
+  - > glmr --help
   
 #### Requests require a *token* for authentication, so it is important to purchase [one here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token).  
 Once you get your token, you must set it to the local repository, follow the example:
@@ -42,3 +42,8 @@ If you want to open a Merge Request by signing for some user, the following comm
 or
 
     glmr target-branch --user user.name
+#### Default values
+> git config --add glmr.remove < true | false >
+- Set default remove source branch flag
+> git config --add glmr.target "target-branch"
+- Set default target branch
