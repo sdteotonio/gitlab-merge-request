@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "request": "2.81.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "stdio": "0.2.7"
   },
   "devDependencies": {
